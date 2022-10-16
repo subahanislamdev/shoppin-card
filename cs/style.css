@@ -1,0 +1,7 @@
+
+.single-btn :hover{
+    background-color: black !important;
+    color: whitesmoke !important;
+    opacity: .8;
+    transition: ease-in 2s;
+}
