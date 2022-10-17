@@ -23,9 +23,12 @@ function caseupdateprice(Newcaseinputvalue){
 document.getElementById('case-btn-plus').addEventListener('click',function(){
     var Newcaseinputvalue = caseupdateinputvalue(true)
     caseupdateprice(Newcaseinputvalue)
+    commonvalue()
+  
 });
 document.getElementById('case-btn-minus').addEventListener('click',function(){
     var Newcaseinputvalue = caseupdateinputvalue(false)
     caseupdateprice(Newcaseinputvalue)
+    commonvalue()
 });
 // end code phone case

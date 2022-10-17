@@ -19,12 +19,17 @@ function phoneupdateprice( Newphonevalue){
     var totalelement = document.getElementById('phone-price')
     totalelement.innerText  = totalphoneprice;
 }
+
 document.getElementById('phone-btn-plus').addEventListener('click',function(){
     var  Newphonevalue = phoneupdatevalue(true)
     phoneupdateprice( Newphonevalue)
+    commonvalue()
+    
 });
 document.getElementById('phone-btn-minus').addEventListener('click',function(){
     var Newphonevalue = phoneupdatevalue(false)
     phoneupdateprice( Newphonevalue)
+    commonvalue()
+   
 });
 // end code phone 

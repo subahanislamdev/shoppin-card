@@ -4,4 +4,5 @@
     color: whitesmoke !important;
     opacity: .8;
     transition: ease-in 2s;
+    transform: scale(1.2,1.2);
 }
